@@ -1,0 +1,6 @@
+.slide-text {
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
