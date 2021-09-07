@@ -8,3 +8,7 @@
 body {
     min-width: 400px;
 }
+
+.no-padding-bottom {
+    padding-bottom: 0px;
+}
