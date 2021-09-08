@@ -23,3 +23,16 @@ body {
 .testiSlider .slides {
     margin-bottom: 3rem;
 }
+
+#contactNumber {
+    margin-bottom: 0px;
+}
+
+
+.validationError {
+    display: none;
+    margin-bottom: 20px;
+    padding: 0;
+    color: red;
+    font-size: .75rem;
+}

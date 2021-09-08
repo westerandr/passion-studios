@@ -107,6 +107,16 @@ $('#submit').click(function(){
 		error = true;
 	}
 
+	var contactNumber_compare = /^(\+685)?\s?(7[123567])[0-9]{5}$/;
+	var contactNumber = $('#contactNumber').val(); 
+	if (contactNumber == "" || contactNumber == " ") { 
+		$('input#contactNumber').addClass("errorForm");
+		error = true;
+	}else if (!contactNumber_compare.test(contactNumber)) { 
+		$('input#contactNumber').addClass("errorForm");
+		error = true;
+	}
+
 	if(error == true) {
 		return false;
 	}
@@ -119,14 +129,18 @@ $('#submit').click(function(){
 		url: $('.contactForm form').attr('action'),
 		data: data_string,
 		
-		success: function(message) {
-				if(message == 'SENDING'){
-					$('#success').fadeIn('slow');
-				}
-				else{
-					$('#error').fadeIn('slow');
-				}
-					}
+		success: function(data) {
+	
+			$('#success').fadeIn('slow');
+			$('.contactForm form').reset();
+		
+
+		},
+		
+		error: function(){
+			$('#error').fadeIn('slow');
+			$('.contactForm form').reset();
+		}
 					
 					
 					

@@ -437,12 +437,13 @@ nav#mainNav a.active:after {
 
 .testiCliContainer .overlay {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
-
+	min-height: 200px;
 }
 
 
 .testiCliContainer{
 	background: url(../images/parallax/bg.jpg);
+	min-height: 200px;
 	background-attachment: fixed;
 	background-position: center top;
 	background-repeat: repeat-y;
@@ -755,6 +756,10 @@ form.respondF {
 	nav#mainNav {margin-right: 70px;}
 }
 
+/*Landscape In Between Screens */
+@media only screen and (min-width: 961px) and (max-width: 1300px){
+	.factsContainer, .testiCliContainer  {background-attachment: scroll;background-position:top center !important;background-size:cover;}
+}
 
 /*iPad lanscape*/
 @media screen and (max-device-width: 960px){
