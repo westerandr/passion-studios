@@ -24,10 +24,6 @@ body {
     margin-bottom: 3rem;
 }
 
-#contactNumber {
-    margin-bottom: 0px;
-}
-
 
 .validationError {
     display: none;
