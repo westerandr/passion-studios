@@ -442,7 +442,7 @@ nav#mainNav a.active:after {
 
 
 .testiCliContainer{
-	background: url(../images/parallax/bg.jpg);
+	background: url(../images/parallax/bg2.jpg);
 	min-height: 200px;
 	background-attachment: fixed;
 	background-position: center top;
@@ -640,6 +640,7 @@ form.respondF {
     cursor: pointer;
     display: inline-block;
     margin-top: 20px;
+	background-color: #fff;
 }
 
 
@@ -654,6 +655,10 @@ form.respondF {
     left: 0;
     position: absolute;
     top: 15px;
+}
+
+#success h2{
+    color: #3dc530;
 }
 
 #error h2 {
