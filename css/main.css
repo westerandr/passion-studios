@@ -437,7 +437,7 @@ nav#mainNav a.active:after {
 
 .testiCliContainer .overlay {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
-	min-height: 500px;
+
 }
 
 
@@ -447,12 +447,11 @@ nav#mainNav a.active:after {
 	background-position: center top;
 	background-repeat: repeat-y;
 	background-size: cover;
-	min-height: 500px;
 	background-color:#fafafa;
 }
 
 #testiCli .testiSlider{
-	width:800px;
+	width:100%;
 	margin-top:100px;
 }
 

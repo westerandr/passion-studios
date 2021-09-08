@@ -12,3 +12,14 @@ body {
 .no-padding-bottom {
     padding-bottom: 0px;
 }
+
+.testiSlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testiSlider .slides {
+    margin-bottom: 3rem;
+}
