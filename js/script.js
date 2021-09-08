@@ -300,6 +300,12 @@ $().UItoTop({ easingType: 'easeOutQuart' });
 
 //--------------------------------- End to the top --------------------------------//
 
+//--------------------------------- Display Dynamic Year  --------------------------------//
+var now = new Date();
+$('#currentYear').html(now.getFullYear());
+
+//--------------------------------- End display Dynamic Year --------------------------------//
+
 
 });
 
