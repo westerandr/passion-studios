@@ -1,63 +1,64 @@
 .slide-text {
-    display: inline-block;
-    padding: 1em;
-    color: white;
-    background-color: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 1em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 body {
-    min-width: 400px;
+  min-width: 400px;
 }
 
 .no-padding-bottom {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .testiSlider {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .testiSlider .slides {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
-
 
 .validationError {
-    display: none;
-    margin-bottom: 20px;
-    padding: 0;
-    color: red;
-    font-size: 10px;
+  display: none;
+  margin-bottom: 20px;
+  padding: 0;
+  color: red;
+  font-size: 10px;
 }
 
-
-.iframe-container{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-    margin-bottom: 1rem;
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-bottom: 1rem;
 }
 
-.iframe-container iframe{
-position: absolute;
-top:0;
-left: 0;
-width: 100%;
-height: 100%;
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-
 
 .my-1 {
-    margin: 2rem auto;
+  margin: 2rem auto;
 }
 
 .cForm #submit:disabled,
-.cForm #submit[disabled]{
+.cForm #submit[disabled] {
   border: 1px solid #999999;
   background-color: #ccc;
   color: #666666;
+}
+
+#about {
+  padding-bottom: 10px;
 }
