@@ -27,6 +27,13 @@
 #wrapper{
 	position:relative;
 	width:100%;
+	margin-bottom: 15px;
+}
+
+#wrapper a > img {
+	width: 70%;
+	height: auto;
+	display: inline-block;
 }
 
 /*End wrapper*/
